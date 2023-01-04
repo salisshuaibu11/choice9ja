@@ -6,7 +6,7 @@ import { Component, ViewEncapsulation } from '@angular/core';
   selector: 'the-choice9ja-home',
   template: `
     <div class="wrapper" id="app">
-      <p>dff</p>
+      <ng-content></ng-content>
     </div>
   `,
   styles: [],
